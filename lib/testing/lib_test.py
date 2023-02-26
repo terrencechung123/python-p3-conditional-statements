@@ -49,13 +49,13 @@ class TestFizzBuzz:
         assert(fizzbuzz(0) == "FizzBuzz")
         assert(fizzbuzz(15) == "FizzBuzz")
         assert(fizzbuzz(45) == "FizzBuzz")
-    
+
     def test_returns_fizz_multiple_3_not_5(self):
         '''returns "Fizz" for num=3, num=33, num=42'''
         assert(fizzbuzz(3) == "Fizz")
         assert(fizzbuzz(33) == "Fizz")
         assert(fizzbuzz(42) == "Fizz")
-    
+
     def test_returns_buzz_multiple_5_not_3(self):
         '''returns "Buzz" for num=5, num=10, num=50'''
         assert(fizzbuzz(5) == "Buzz")
